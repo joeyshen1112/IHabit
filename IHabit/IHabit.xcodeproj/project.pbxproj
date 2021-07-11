@@ -1,0 +1,1313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BED7FBA36396A069A9403B0 /* Pods_IHabitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67773180B0DC8E2EAD118F4C /* Pods_IHabitTests.framework */; };
+		BBD080CC0C23090B031E23EC /* Pods_IHabit_IHabitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61DC659206C5301DDD86C6AF /* Pods_IHabit_IHabitUITests.framework */; };
+		D4089D81267C799200CCDA89 /* ActorInformation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4089D80267C799200CCDA89 /* ActorInformation.storyboard */; };
+		D4089D84267C79D400CCDA89 /* ActorInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4089D83267C79D400CCDA89 /* ActorInformationViewController.swift */; };
+		D4089D86267CF2DC00CCDA89 /* MissionFilterTagTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4089D85267CF2DC00CCDA89 /* MissionFilterTagTableViewCell.swift */; };
+		D40F70A82686F8E200C5D036 /* FinishHabit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D40F70A72686F8E200C5D036 /* FinishHabit.swift */; };
+		D425C64226748E3000A0D9DE /* MissionEndTimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D425C64126748E3000A0D9DE /* MissionEndTimeTableViewCell.swift */; };
+		D42E79FB267FA70C00A9CA11 /* EditMission.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D42E79FA267FA70C00A9CA11 /* EditMission.storyboard */; };
+		D42E79FE267FA75700A9CA11 /* EditMissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42E79FD267FA75700A9CA11 /* EditMissionViewController.swift */; };
+		D42F0CD02672084700F6C8B5 /* MissionTagCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42F0CCF2672084700F6C8B5 /* MissionTagCollectionViewCell.swift */; };
+		D42F0CD326720A1900F6C8B5 /* FrequencySayData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42F0CD226720A1900F6C8B5 /* FrequencySayData.swift */; };
+		D42F0CD52672259C00F6C8B5 /* CurrentTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42F0CD42672259C00F6C8B5 /* CurrentTime.swift */; };
+		D4317C1A267799A100FC5A59 /* MissionIconCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4317C19267799A100FC5A59 /* MissionIconCollectionViewCell.swift */; };
+		D443CF90267B23B70074B303 /* MissionInformationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D443CF8F267B23B70074B303 /* MissionInformationTableViewCell.swift */; };
+		D448E2D6267DC71000022946 /* Arrat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D448E2D5267DC71000022946 /* Arrat+Extension.swift */; };
+		D44986EA268C0A2D00E13B9E /* Fight.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44986E9268C0A2D00E13B9E /* Fight.storyboard */; };
+		D44986ED268CBD5000E13B9E /* FightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44986EC268CBD5000E13B9E /* FightViewController.swift */; };
+		D44986F0268CD1F000E13B9E /* FightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44986EF268CD1F000E13B9E /* FightTableViewCell.swift */; };
+		D455094C26929FF600C25032 /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D455094B26929FF600C25032 /* TitleTableViewCell.swift */; };
+		D46D4529268044C00011464C /* Achievement.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D46D4528268044C00011464C /* Achievement.storyboard */; };
+		D46FC8C8267A079A001B973E /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46FC8C7267A079A001B973E /* UIViewController+Extension.swift */; };
+		D46FC8CC267A4410001B973E /* MissionOverview.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D46FC8CB267A4410001B973E /* MissionOverview.storyboard */; };
+		D46FC8CF267A444D001B973E /* MissionOverviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46FC8CE267A444D001B973E /* MissionOverviewViewController.swift */; };
+		D46FC8D2267A452B001B973E /* MissionOverViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46FC8D1267A452B001B973E /* MissionOverViewTableViewCell.swift */; };
+		D479409D2670675B00A0EF9A /* NewMissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D479409C2670675B00A0EF9A /* NewMissionViewController.swift */; };
+		D47940A026706E1A00A0EF9A /* MissionNameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D479409F26706E1A00A0EF9A /* MissionNameTableViewCell.swift */; };
+		D47940A2267081B500A0EF9A /* MissionTagTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47940A1267081B500A0EF9A /* MissionTagTableViewCell.swift */; };
+		D47940A42670825200A0EF9A /* MissionStartTimeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47940A32670825200A0EF9A /* MissionStartTimeTableViewCell.swift */; };
+		D47F4A51266CB3D3007DDE38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47F4A50266CB3D3007DDE38 /* AppDelegate.swift */; };
+		D47F4A53266CB3D3007DDE38 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47F4A52266CB3D3007DDE38 /* SceneDelegate.swift */; };
+		D47F4A55266CB3D3007DDE38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47F4A54266CB3D3007DDE38 /* ViewController.swift */; };
+		D47F4A58266CB3D3007DDE38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D47F4A56266CB3D3007DDE38 /* Main.storyboard */; };
+		D47F4A5B266CB3D3007DDE38 /* IHabit.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D47F4A59266CB3D3007DDE38 /* IHabit.xcdatamodeld */; };
+		D47F4A5D266CB3D4007DDE38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D47F4A5C266CB3D4007DDE38 /* Assets.xcassets */; };
+		D47F4A60266CB3D4007DDE38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D47F4A5E266CB3D4007DDE38 /* LaunchScreen.storyboard */; };
+		D47F4A6B266CB3D4007DDE38 /* IHabitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47F4A6A266CB3D4007DDE38 /* IHabitTests.swift */; };
+		D47F4A76266CB3D4007DDE38 /* IHabitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47F4A75266CB3D4007DDE38 /* IHabitUITests.swift */; };
+		D47F4A88266CB79D007DDE38 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47F4A87266CB79D007DDE38 /* HomeViewController.swift */; };
+		D47F4A8A266CB834007DDE38 /* AchievementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47F4A89266CB834007DDE38 /* AchievementViewController.swift */; };
+		D4903B98267906B30094CACC /* TagFilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4903B97267906B30094CACC /* TagFilterViewController.swift */; };
+		D49264CF266F6213008D8421 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49264CE266F6213008D8421 /* TabBarViewController.swift */; };
+		D49264D7266F7365008D8421 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49264D6266F7365008D8421 /* SettingViewController.swift */; };
+		D49264D9266F9D09008D8421 /* MissionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49264D8266F9D09008D8421 /* MissionListViewController.swift */; };
+		D49264DC266F9DD7008D8421 /* MissionListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49264DB266F9DD7008D8421 /* MissionListTableViewCell.swift */; };
+		D492E8DD26823C9B00CBF838 /* UesrLoginData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D492E8DC26823C9B00CBF838 /* UesrLoginData.swift */; };
+		D492E8DF26824DBE00CBF838 /* HabitListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D492E8DE26824DBE00CBF838 /* HabitListData.swift */; };
+		D495D73D268D98930085D713 /* ChoseLevelFightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D495D73C268D98930085D713 /* ChoseLevelFightViewController.swift */; };
+		D495D73F268DA6F10085D713 /* LevelFightChoseCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D495D73E268DA6F10085D713 /* LevelFightChoseCollectionViewCell.swift */; };
+		D495D741268DBB220085D713 /* BossInfoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D495D740268DBB220085D713 /* BossInfoData.swift */; };
+		D495D743268DEE2C0085D713 /* SkillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D495D742268DEE2C0085D713 /* SkillViewController.swift */; };
+		D495D745268DF8400085D713 /* SkillCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D495D744268DF8400085D713 /* SkillCollectionViewCell.swift */; };
+		D4994F772689B4A000B53BE5 /* TalentListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4994F762689B4A000B53BE5 /* TalentListData.swift */; };
+		D4994F792689BA7300B53BE5 /* TalentImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4994F782689BA7300B53BE5 /* TalentImageView.swift */; };
+		D4994F7C2689D20D00B53BE5 /* StoreForgingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4994F7B2689D20D00B53BE5 /* StoreForgingTableViewCell.swift */; };
+		D4994F7E2689D21B00B53BE5 /* StoreLevelUpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4994F7D2689D21B00B53BE5 /* StoreLevelUpTableViewCell.swift */; };
+		D49BE6AB2671B8DA00048C9B /* MissionEncourageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49BE6AA2671B8DA00048C9B /* MissionEncourageTableViewCell.swift */; };
+		D49BE6AE2671EF3A00048C9B /* MissionFrequencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49BE6AD2671EF3A00048C9B /* MissionFrequencyTableViewCell.swift */; };
+		D49BE6B12671F53200048C9B /* MissionSetTagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D49BE6B02671F53200048C9B /* MissionSetTagViewController.swift */; };
+		D4A581E926922509002A3AC3 /* ActorTitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A581E826922509002A3AC3 /* ActorTitleViewController.swift */; };
+		D4A5A02526807234004EB2DE /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A5A02426807234004EB2DE /* SignInViewController.swift */; };
+		D4A5A02726807256004EB2DE /* RegisteredViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A5A02626807256004EB2DE /* RegisteredViewController.swift */; };
+		D4A5A02A2680BE61004EB2DE /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A5A0292680BE61004EB2DE /* Server.swift */; };
+		D4A5A02D2680C42C004EB2DE /* UserRegistedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A5A02C2680C42C004EB2DE /* UserRegistedData.swift */; };
+		D4A5A02F2680FD87004EB2DE /* UserCheckMailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A5A02E2680FD87004EB2DE /* UserCheckMailData.swift */; };
+		D4A5B604268B0B1500F260AD /* UserEquipData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A5B603268B0B1500F260AD /* UserEquipData.swift */; };
+		D4A5B606268B109600F260AD /* UserForgingEquipData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A5B605268B109600F260AD /* UserForgingEquipData.swift */; };
+		D4A5B608268B7B7000F260AD /* UserLevelUpEquipData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A5B607268B7B7000F260AD /* UserLevelUpEquipData.swift */; };
+		D4D9369E2690883B00B3FB54 /* FightWin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D9369D2690883B00B3FB54 /* FightWin.swift */; };
+		D4D936A02690C9AC00B3FB54 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D9369F2690C9AC00B3FB54 /* ResetPasswordViewController.swift */; };
+		D4D936A22690D27900B3FB54 /* ResetPasswordData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4D936A12690D27900B3FB54 /* ResetPasswordData.swift */; };
+		D4E05E112675DC650050808F /* MissionSetTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E05E102675DC650050808F /* MissionSetTimeViewController.swift */; };
+		D4E05E142675DE460050808F /* MissionAddRemindTimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E05E132675DE460050808F /* MissionAddRemindTimeCollectionViewCell.swift */; };
+		D4E05E1A267663650050808F /* MissionRemindTimeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E05E19267663650050808F /* MissionRemindTimeCollectionViewCell.swift */; };
+		D4E5BFE826883CA300C5499B /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E5BFE726883CA300C5499B /* UILabel+Extension.swift */; };
+		D4E5BFEA268872E900C5499B /* UserInformationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E5BFE9268872E900C5499B /* UserInformationData.swift */; };
+		D4E5BFED2688AA8200C5499B /* ActorInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E5BFEC2688AA8200C5499B /* ActorInfoTableViewCell.swift */; };
+		D4E5BFEF2688B7EB00C5499B /* Store.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E5BFEE2688B7EB00C5499B /* Store.storyboard */; };
+		D4E5BFF22688B8C300C5499B /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E5BFF12688B8C200C5499B /* StoreViewController.swift */; };
+		D4EB50B42682C8DC004DF5F2 /* AddNewHabit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EB50B32682C8DC004DF5F2 /* AddNewHabit.swift */; };
+		D4EB50B62682EECB004DF5F2 /* MissionTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EB50B52682EECB004DF5F2 /* MissionTag.swift */; };
+		D4EB50BA2683214D004DF5F2 /* MissionDetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EB50B92683214D004DF5F2 /* MissionDetailData.swift */; };
+		D4EB50BC2683688C004DF5F2 /* TagListData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4EB50BB2683688C004DF5F2 /* TagListData.swift */; };
+		D4F5CB792670A29E00FC8261 /* MissionTagViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4F5CB782670A29E00FC8261 /* MissionTagViewController.swift */; };
+		D4FDAB4E26973B690042BE54 /* LevelUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4FDAB4D26973B690042BE54 /* LevelUpViewController.swift */; };
+		EC98E6C7336A63C27067886A /* Pods_IHabit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1D91D968E5E8073FE22491 /* Pods_IHabit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D47F4A67266CB3D4007DDE38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D47F4A45266CB3D3007DDE38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D47F4A4C266CB3D3007DDE38;
+			remoteInfo = IHabit;
+		};
+		D47F4A72266CB3D4007DDE38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D47F4A45266CB3D3007DDE38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D47F4A4C266CB3D3007DDE38;
+			remoteInfo = IHabit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FD1F39D33F90FD09C1917B0 /* Pods-IHabit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IHabit.release.xcconfig"; path = "Target Support Files/Pods-IHabit/Pods-IHabit.release.xcconfig"; sourceTree = "<group>"; };
+		1F1D91D968E5E8073FE22491 /* Pods_IHabit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IHabit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61DC659206C5301DDD86C6AF /* Pods_IHabit_IHabitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IHabit_IHabitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67773180B0DC8E2EAD118F4C /* Pods_IHabitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IHabitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F5257E162E3807FC8CBA471 /* Pods-IHabit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IHabit.debug.xcconfig"; path = "Target Support Files/Pods-IHabit/Pods-IHabit.debug.xcconfig"; sourceTree = "<group>"; };
+		86CF3290700DC4FD9C51392B /* Pods-IHabitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IHabitTests.debug.xcconfig"; path = "Target Support Files/Pods-IHabitTests/Pods-IHabitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8DB7B9063B6B9ACDA5108BEF /* Pods-IHabitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IHabitTests.release.xcconfig"; path = "Target Support Files/Pods-IHabitTests/Pods-IHabitTests.release.xcconfig"; sourceTree = "<group>"; };
+		BC9B94630A57658ED0087F7E /* Pods-IHabit-IHabitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IHabit-IHabitUITests.release.xcconfig"; path = "Target Support Files/Pods-IHabit-IHabitUITests/Pods-IHabit-IHabitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D4089D80267C799200CCDA89 /* ActorInformation.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ActorInformation.storyboard; sourceTree = "<group>"; };
+		D4089D83267C79D400CCDA89 /* ActorInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorInformationViewController.swift; sourceTree = "<group>"; };
+		D4089D85267CF2DC00CCDA89 /* MissionFilterTagTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionFilterTagTableViewCell.swift; sourceTree = "<group>"; };
+		D40F70A72686F8E200C5D036 /* FinishHabit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishHabit.swift; sourceTree = "<group>"; };
+		D425C64126748E3000A0D9DE /* MissionEndTimeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionEndTimeTableViewCell.swift; sourceTree = "<group>"; };
+		D42E79FA267FA70C00A9CA11 /* EditMission.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EditMission.storyboard; sourceTree = "<group>"; };
+		D42E79FD267FA75700A9CA11 /* EditMissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMissionViewController.swift; sourceTree = "<group>"; };
+		D42F0CCF2672084700F6C8B5 /* MissionTagCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionTagCollectionViewCell.swift; sourceTree = "<group>"; };
+		D42F0CD226720A1900F6C8B5 /* FrequencySayData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrequencySayData.swift; sourceTree = "<group>"; };
+		D42F0CD42672259C00F6C8B5 /* CurrentTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTime.swift; sourceTree = "<group>"; };
+		D4317C19267799A100FC5A59 /* MissionIconCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionIconCollectionViewCell.swift; sourceTree = "<group>"; };
+		D443CF8F267B23B70074B303 /* MissionInformationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionInformationTableViewCell.swift; sourceTree = "<group>"; };
+		D448E2D5267DC71000022946 /* Arrat+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Arrat+Extension.swift"; sourceTree = "<group>"; };
+		D44986E9268C0A2D00E13B9E /* Fight.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Fight.storyboard; sourceTree = "<group>"; };
+		D44986EC268CBD5000E13B9E /* FightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightViewController.swift; sourceTree = "<group>"; };
+		D44986EF268CD1F000E13B9E /* FightTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightTableViewCell.swift; sourceTree = "<group>"; };
+		D455094B26929FF600C25032 /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		D46D4528268044C00011464C /* Achievement.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Achievement.storyboard; sourceTree = "<group>"; };
+		D46FC8C7267A079A001B973E /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
+		D46FC8CB267A4410001B973E /* MissionOverview.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MissionOverview.storyboard; sourceTree = "<group>"; };
+		D46FC8CE267A444D001B973E /* MissionOverviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionOverviewViewController.swift; sourceTree = "<group>"; };
+		D46FC8D1267A452B001B973E /* MissionOverViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionOverViewTableViewCell.swift; sourceTree = "<group>"; };
+		D479409C2670675B00A0EF9A /* NewMissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMissionViewController.swift; sourceTree = "<group>"; };
+		D479409F26706E1A00A0EF9A /* MissionNameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionNameTableViewCell.swift; sourceTree = "<group>"; };
+		D47940A1267081B500A0EF9A /* MissionTagTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionTagTableViewCell.swift; sourceTree = "<group>"; };
+		D47940A32670825200A0EF9A /* MissionStartTimeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionStartTimeTableViewCell.swift; sourceTree = "<group>"; };
+		D47F4A4D266CB3D3007DDE38 /* IHabit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IHabit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D47F4A50266CB3D3007DDE38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D47F4A52266CB3D3007DDE38 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D47F4A54266CB3D3007DDE38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D47F4A57266CB3D3007DDE38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D47F4A5A266CB3D3007DDE38 /* IHabit.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IHabit.xcdatamodel; sourceTree = "<group>"; };
+		D47F4A5C266CB3D4007DDE38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D47F4A5F266CB3D4007DDE38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D47F4A61266CB3D4007DDE38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D47F4A66266CB3D4007DDE38 /* IHabitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IHabitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D47F4A6A266CB3D4007DDE38 /* IHabitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHabitTests.swift; sourceTree = "<group>"; };
+		D47F4A6C266CB3D4007DDE38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D47F4A71266CB3D4007DDE38 /* IHabitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IHabitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D47F4A75266CB3D4007DDE38 /* IHabitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHabitUITests.swift; sourceTree = "<group>"; };
+		D47F4A77266CB3D4007DDE38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D47F4A87266CB79D007DDE38 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D47F4A89266CB834007DDE38 /* AchievementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementViewController.swift; sourceTree = "<group>"; };
+		D4903B97267906B30094CACC /* TagFilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagFilterViewController.swift; sourceTree = "<group>"; };
+		D49264CE266F6213008D8421 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		D49264D6266F7365008D8421 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		D49264D8266F9D09008D8421 /* MissionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionListViewController.swift; sourceTree = "<group>"; };
+		D49264DB266F9DD7008D8421 /* MissionListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionListTableViewCell.swift; sourceTree = "<group>"; };
+		D492E8DC26823C9B00CBF838 /* UesrLoginData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UesrLoginData.swift; sourceTree = "<group>"; };
+		D492E8DE26824DBE00CBF838 /* HabitListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitListData.swift; sourceTree = "<group>"; };
+		D495D73C268D98930085D713 /* ChoseLevelFightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoseLevelFightViewController.swift; sourceTree = "<group>"; };
+		D495D73E268DA6F10085D713 /* LevelFightChoseCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelFightChoseCollectionViewCell.swift; sourceTree = "<group>"; };
+		D495D740268DBB220085D713 /* BossInfoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BossInfoData.swift; sourceTree = "<group>"; };
+		D495D742268DEE2C0085D713 /* SkillViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillViewController.swift; sourceTree = "<group>"; };
+		D495D744268DF8400085D713 /* SkillCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillCollectionViewCell.swift; sourceTree = "<group>"; };
+		D4994F762689B4A000B53BE5 /* TalentListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalentListData.swift; sourceTree = "<group>"; };
+		D4994F782689BA7300B53BE5 /* TalentImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalentImageView.swift; sourceTree = "<group>"; };
+		D4994F7B2689D20D00B53BE5 /* StoreForgingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreForgingTableViewCell.swift; sourceTree = "<group>"; };
+		D4994F7D2689D21B00B53BE5 /* StoreLevelUpTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreLevelUpTableViewCell.swift; sourceTree = "<group>"; };
+		D49BE6AA2671B8DA00048C9B /* MissionEncourageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionEncourageTableViewCell.swift; sourceTree = "<group>"; };
+		D49BE6AD2671EF3A00048C9B /* MissionFrequencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionFrequencyTableViewCell.swift; sourceTree = "<group>"; };
+		D49BE6B02671F53200048C9B /* MissionSetTagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionSetTagViewController.swift; sourceTree = "<group>"; };
+		D4A581E826922509002A3AC3 /* ActorTitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorTitleViewController.swift; sourceTree = "<group>"; };
+		D4A5A02426807234004EB2DE /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		D4A5A02626807256004EB2DE /* RegisteredViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisteredViewController.swift; sourceTree = "<group>"; };
+		D4A5A0292680BE61004EB2DE /* Server.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
+		D4A5A02C2680C42C004EB2DE /* UserRegistedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegistedData.swift; sourceTree = "<group>"; };
+		D4A5A02E2680FD87004EB2DE /* UserCheckMailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCheckMailData.swift; sourceTree = "<group>"; };
+		D4A5B603268B0B1500F260AD /* UserEquipData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEquipData.swift; sourceTree = "<group>"; };
+		D4A5B605268B109600F260AD /* UserForgingEquipData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserForgingEquipData.swift; sourceTree = "<group>"; };
+		D4A5B607268B7B7000F260AD /* UserLevelUpEquipData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLevelUpEquipData.swift; sourceTree = "<group>"; };
+		D4D9369D2690883B00B3FB54 /* FightWin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightWin.swift; sourceTree = "<group>"; };
+		D4D9369F2690C9AC00B3FB54 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		D4D936A12690D27900B3FB54 /* ResetPasswordData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordData.swift; sourceTree = "<group>"; };
+		D4E05E102675DC650050808F /* MissionSetTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionSetTimeViewController.swift; sourceTree = "<group>"; };
+		D4E05E132675DE460050808F /* MissionAddRemindTimeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionAddRemindTimeCollectionViewCell.swift; sourceTree = "<group>"; };
+		D4E05E19267663650050808F /* MissionRemindTimeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionRemindTimeCollectionViewCell.swift; sourceTree = "<group>"; };
+		D4E5BFE726883CA300C5499B /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		D4E5BFE9268872E900C5499B /* UserInformationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInformationData.swift; sourceTree = "<group>"; };
+		D4E5BFEC2688AA8200C5499B /* ActorInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActorInfoTableViewCell.swift; sourceTree = "<group>"; };
+		D4E5BFEE2688B7EB00C5499B /* Store.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Store.storyboard; sourceTree = "<group>"; };
+		D4E5BFF12688B8C200C5499B /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		D4EB50B32682C8DC004DF5F2 /* AddNewHabit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewHabit.swift; sourceTree = "<group>"; };
+		D4EB50B52682EECB004DF5F2 /* MissionTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionTag.swift; sourceTree = "<group>"; };
+		D4EB50B92683214D004DF5F2 /* MissionDetailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionDetailData.swift; sourceTree = "<group>"; };
+		D4EB50BB2683688C004DF5F2 /* TagListData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagListData.swift; sourceTree = "<group>"; };
+		D4F5CB782670A29E00FC8261 /* MissionTagViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionTagViewController.swift; sourceTree = "<group>"; };
+		D4FDAB4D26973B690042BE54 /* LevelUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelUpViewController.swift; sourceTree = "<group>"; };
+		D9E87DAEB038DC45BE32F417 /* Pods-IHabit-IHabitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IHabit-IHabitUITests.debug.xcconfig"; path = "Target Support Files/Pods-IHabit-IHabitUITests/Pods-IHabit-IHabitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D47F4A4A266CB3D3007DDE38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC98E6C7336A63C27067886A /* Pods_IHabit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D47F4A63266CB3D4007DDE38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BED7FBA36396A069A9403B0 /* Pods_IHabitTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D47F4A6E266CB3D4007DDE38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBD080CC0C23090B031E23EC /* Pods_IHabit_IHabitUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E9FACA2B9466B424ECD9D5B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F5257E162E3807FC8CBA471 /* Pods-IHabit.debug.xcconfig */,
+				0FD1F39D33F90FD09C1917B0 /* Pods-IHabit.release.xcconfig */,
+				D9E87DAEB038DC45BE32F417 /* Pods-IHabit-IHabitUITests.debug.xcconfig */,
+				BC9B94630A57658ED0087F7E /* Pods-IHabit-IHabitUITests.release.xcconfig */,
+				86CF3290700DC4FD9C51392B /* Pods-IHabitTests.debug.xcconfig */,
+				8DB7B9063B6B9ACDA5108BEF /* Pods-IHabitTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		91757238DEE37D0C34BE12D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F1D91D968E5E8073FE22491 /* Pods_IHabit.framework */,
+				61DC659206C5301DDD86C6AF /* Pods_IHabit_IHabitUITests.framework */,
+				67773180B0DC8E2EAD118F4C /* Pods_IHabitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D4089D82267C79B900CCDA89 /* Actor */ = {
+			isa = PBXGroup;
+			children = (
+				D4089D83267C79D400CCDA89 /* ActorInformationViewController.swift */,
+				D4A581E826922509002A3AC3 /* ActorTitleViewController.swift */,
+			);
+			path = Actor;
+			sourceTree = "<group>";
+		};
+		D42E79FC267FA73E00A9CA11 /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				D42E79FD267FA75700A9CA11 /* EditMissionViewController.swift */,
+			);
+			path = Edit;
+			sourceTree = "<group>";
+		};
+		D42F0CD1267209BB00F6C8B5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D42F0CD226720A1900F6C8B5 /* FrequencySayData.swift */,
+				D42F0CD42672259C00F6C8B5 /* CurrentTime.swift */,
+				D4994F782689BA7300B53BE5 /* TalentImageView.swift */,
+				D4EB50B52682EECB004DF5F2 /* MissionTag.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D4317C182677996C00FC5A59 /* MissionIcon */ = {
+			isa = PBXGroup;
+			children = (
+				D4317C19267799A100FC5A59 /* MissionIconCollectionViewCell.swift */,
+			);
+			path = MissionIcon;
+			sourceTree = "<group>";
+		};
+		D44986EB268CBD3400E13B9E /* Fight */ = {
+			isa = PBXGroup;
+			children = (
+				D44986EC268CBD5000E13B9E /* FightViewController.swift */,
+				D495D742268DEE2C0085D713 /* SkillViewController.swift */,
+				D495D73C268D98930085D713 /* ChoseLevelFightViewController.swift */,
+			);
+			path = Fight;
+			sourceTree = "<group>";
+		};
+		D44986EE268CD1D200E13B9E /* Fight */ = {
+			isa = PBXGroup;
+			children = (
+				D44986EF268CD1F000E13B9E /* FightTableViewCell.swift */,
+				D495D744268DF8400085D713 /* SkillCollectionViewCell.swift */,
+				D495D73E268DA6F10085D713 /* LevelFightChoseCollectionViewCell.swift */,
+			);
+			path = Fight;
+			sourceTree = "<group>";
+		};
+		D46FC8C6267A0772001B973E /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D46FC8C7267A079A001B973E /* UIViewController+Extension.swift */,
+				D4E5BFE726883CA300C5499B /* UILabel+Extension.swift */,
+				D448E2D5267DC71000022946 /* Arrat+Extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		D46FC8CD267A442A001B973E /* Overview */ = {
+			isa = PBXGroup;
+			children = (
+				D46FC8CE267A444D001B973E /* MissionOverviewViewController.swift */,
+			);
+			path = Overview;
+			sourceTree = "<group>";
+		};
+		D46FC8D0267A4508001B973E /* MissionOverView */ = {
+			isa = PBXGroup;
+			children = (
+				D46FC8D1267A452B001B973E /* MissionOverViewTableViewCell.swift */,
+				D443CF8F267B23B70074B303 /* MissionInformationTableViewCell.swift */,
+			);
+			path = MissionOverView;
+			sourceTree = "<group>";
+		};
+		D479409B267066DA00A0EF9A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D47F4A87266CB79D007DDE38 /* HomeViewController.swift */,
+				D49264D8266F9D09008D8421 /* MissionListViewController.swift */,
+				D4F5CB782670A29E00FC8261 /* MissionTagViewController.swift */,
+				D4FDAB4D26973B690042BE54 /* LevelUpViewController.swift */,
+				D49BE6AF2671F4F400048C9B /* NewMission */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D479409E26706D9200A0EF9A /* NewMissionEdit */ = {
+			isa = PBXGroup;
+			children = (
+				D4F5CB862670C8CF00FC8261 /* MissionName */,
+				D4F5CB842670C83800FC8261 /* MissionTime */,
+				D49BE6A92671B86300048C9B /* MissionEncourage */,
+				D4F5CB832670C81700FC8261 /* MissionTag */,
+				D49BE6AC2671EED100048C9B /* MissionFrequency */,
+				D4317C182677996C00FC5A59 /* MissionIcon */,
+				D46FC8D0267A4508001B973E /* MissionOverView */,
+			);
+			path = NewMissionEdit;
+			sourceTree = "<group>";
+		};
+		D47F4A44266CB3D3007DDE38 = {
+			isa = PBXGroup;
+			children = (
+				D47F4A4F266CB3D3007DDE38 /* IHabit */,
+				D47F4A69266CB3D4007DDE38 /* IHabitTests */,
+				D47F4A74266CB3D4007DDE38 /* IHabitUITests */,
+				D47F4A4E266CB3D3007DDE38 /* Products */,
+				0E9FACA2B9466B424ECD9D5B /* Pods */,
+				91757238DEE37D0C34BE12D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D47F4A4E266CB3D3007DDE38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D47F4A4D266CB3D3007DDE38 /* IHabit.app */,
+				D47F4A66266CB3D4007DDE38 /* IHabitTests.xctest */,
+				D47F4A71266CB3D4007DDE38 /* IHabitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D47F4A4F266CB3D3007DDE38 /* IHabit */ = {
+			isa = PBXGroup;
+			children = (
+				D47F4A50266CB3D3007DDE38 /* AppDelegate.swift */,
+				D47F4A52266CB3D3007DDE38 /* SceneDelegate.swift */,
+				D47F4A86266CB765007DDE38 /* ViewController */,
+				D492E8DB2682303100CBF838 /* TabBar */,
+				D49264DA266F9DB6008D8421 /* Cell */,
+				D42F0CD1267209BB00F6C8B5 /* Model */,
+				D4A5A02B2680C3FE004EB2DE /* ApiData */,
+				D4A5A0282680BE01004EB2DE /* Server */,
+				D46FC8C6267A0772001B973E /* Helper */,
+				D4F5CB7F2670B46900FC8261 /* StoryBoard */,
+				D47F4A54266CB3D3007DDE38 /* ViewController.swift */,
+				D47F4A5C266CB3D4007DDE38 /* Assets.xcassets */,
+				D47F4A61266CB3D4007DDE38 /* Info.plist */,
+				D47F4A59266CB3D3007DDE38 /* IHabit.xcdatamodeld */,
+			);
+			path = IHabit;
+			sourceTree = "<group>";
+		};
+		D47F4A69266CB3D4007DDE38 /* IHabitTests */ = {
+			isa = PBXGroup;
+			children = (
+				D47F4A6A266CB3D4007DDE38 /* IHabitTests.swift */,
+				D47F4A6C266CB3D4007DDE38 /* Info.plist */,
+			);
+			path = IHabitTests;
+			sourceTree = "<group>";
+		};
+		D47F4A74266CB3D4007DDE38 /* IHabitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D47F4A75266CB3D4007DDE38 /* IHabitUITests.swift */,
+				D47F4A77266CB3D4007DDE38 /* Info.plist */,
+			);
+			path = IHabitUITests;
+			sourceTree = "<group>";
+		};
+		D47F4A86266CB765007DDE38 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D49264D6266F7365008D8421 /* SettingViewController.swift */,
+				D4D9369F2690C9AC00B3FB54 /* ResetPasswordViewController.swift */,
+				D479409B267066DA00A0EF9A /* Home */,
+				D4F5CBC626710D9100FC8261 /* Achievement */,
+				D4903B96267906940094CACC /* TagFilter */,
+				D46FC8CD267A442A001B973E /* Overview */,
+				D4089D82267C79B900CCDA89 /* Actor */,
+				D4E5BFF02688B8A700C5499B /* Store */,
+				D44986EB268CBD3400E13B9E /* Fight */,
+				D42E79FC267FA73E00A9CA11 /* Edit */,
+				D4A5A022268071BD004EB2DE /* SignIn */,
+				D4A5A023268071CB004EB2DE /* Registed */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		D4903B96267906940094CACC /* TagFilter */ = {
+			isa = PBXGroup;
+			children = (
+				D4903B97267906B30094CACC /* TagFilterViewController.swift */,
+			);
+			path = TagFilter;
+			sourceTree = "<group>";
+		};
+		D49264DA266F9DB6008D8421 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D49264DB266F9DD7008D8421 /* MissionListTableViewCell.swift */,
+				D479409E26706D9200A0EF9A /* NewMissionEdit */,
+				D4E5BFEB2688AA4E00C5499B /* ActorInfo */,
+				D4994F7A2689D1D200B53BE5 /* Store */,
+				D44986EE268CD1D200E13B9E /* Fight */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D492E8DB2682303100CBF838 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				D49264CE266F6213008D8421 /* TabBarViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		D4994F7A2689D1D200B53BE5 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				D4994F7B2689D20D00B53BE5 /* StoreForgingTableViewCell.swift */,
+				D4994F7D2689D21B00B53BE5 /* StoreLevelUpTableViewCell.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		D49BE6A92671B86300048C9B /* MissionEncourage */ = {
+			isa = PBXGroup;
+			children = (
+				D49BE6AA2671B8DA00048C9B /* MissionEncourageTableViewCell.swift */,
+			);
+			path = MissionEncourage;
+			sourceTree = "<group>";
+		};
+		D49BE6AC2671EED100048C9B /* MissionFrequency */ = {
+			isa = PBXGroup;
+			children = (
+				D49BE6AD2671EF3A00048C9B /* MissionFrequencyTableViewCell.swift */,
+			);
+			path = MissionFrequency;
+			sourceTree = "<group>";
+		};
+		D49BE6AF2671F4F400048C9B /* NewMission */ = {
+			isa = PBXGroup;
+			children = (
+				D479409C2670675B00A0EF9A /* NewMissionViewController.swift */,
+				D49BE6B02671F53200048C9B /* MissionSetTagViewController.swift */,
+				D4E05E102675DC650050808F /* MissionSetTimeViewController.swift */,
+			);
+			path = NewMission;
+			sourceTree = "<group>";
+		};
+		D4A5A022268071BD004EB2DE /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				D4A5A02426807234004EB2DE /* SignInViewController.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		D4A5A023268071CB004EB2DE /* Registed */ = {
+			isa = PBXGroup;
+			children = (
+				D4A5A02626807256004EB2DE /* RegisteredViewController.swift */,
+			);
+			path = Registed;
+			sourceTree = "<group>";
+		};
+		D4A5A0282680BE01004EB2DE /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				D4A5A0292680BE61004EB2DE /* Server.swift */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		D4A5A02B2680C3FE004EB2DE /* ApiData */ = {
+			isa = PBXGroup;
+			children = (
+				D4EB50B32682C8DC004DF5F2 /* AddNewHabit.swift */,
+				D40F70A72686F8E200C5D036 /* FinishHabit.swift */,
+				D4EB50B92683214D004DF5F2 /* MissionDetailData.swift */,
+				D492E8DE26824DBE00CBF838 /* HabitListData.swift */,
+				D4EB50BB2683688C004DF5F2 /* TagListData.swift */,
+				D4E5BFE9268872E900C5499B /* UserInformationData.swift */,
+				D4A5B603268B0B1500F260AD /* UserEquipData.swift */,
+				D4A5B605268B109600F260AD /* UserForgingEquipData.swift */,
+				D4D936A12690D27900B3FB54 /* ResetPasswordData.swift */,
+				D4A5B607268B7B7000F260AD /* UserLevelUpEquipData.swift */,
+				D4A5A02E2680FD87004EB2DE /* UserCheckMailData.swift */,
+				D4D9369D2690883B00B3FB54 /* FightWin.swift */,
+				D4A5A02C2680C42C004EB2DE /* UserRegistedData.swift */,
+				D492E8DC26823C9B00CBF838 /* UesrLoginData.swift */,
+				D4994F762689B4A000B53BE5 /* TalentListData.swift */,
+				D495D740268DBB220085D713 /* BossInfoData.swift */,
+			);
+			path = ApiData;
+			sourceTree = "<group>";
+		};
+		D4E5BFEB2688AA4E00C5499B /* ActorInfo */ = {
+			isa = PBXGroup;
+			children = (
+				D4E5BFEC2688AA8200C5499B /* ActorInfoTableViewCell.swift */,
+				D455094B26929FF600C25032 /* TitleTableViewCell.swift */,
+			);
+			path = ActorInfo;
+			sourceTree = "<group>";
+		};
+		D4E5BFF02688B8A700C5499B /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				D4E5BFF12688B8C200C5499B /* StoreViewController.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		D4F5CB7F2670B46900FC8261 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				D46D4528268044C00011464C /* Achievement.storyboard */,
+				D47F4A56266CB3D3007DDE38 /* Main.storyboard */,
+				D46FC8CB267A4410001B973E /* MissionOverview.storyboard */,
+				D44986E9268C0A2D00E13B9E /* Fight.storyboard */,
+				D4089D80267C799200CCDA89 /* ActorInformation.storyboard */,
+				D4E5BFEE2688B7EB00C5499B /* Store.storyboard */,
+				D42E79FA267FA70C00A9CA11 /* EditMission.storyboard */,
+				D47F4A5E266CB3D4007DDE38 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		D4F5CB832670C81700FC8261 /* MissionTag */ = {
+			isa = PBXGroup;
+			children = (
+				D47940A1267081B500A0EF9A /* MissionTagTableViewCell.swift */,
+				D42F0CCF2672084700F6C8B5 /* MissionTagCollectionViewCell.swift */,
+				D4089D85267CF2DC00CCDA89 /* MissionFilterTagTableViewCell.swift */,
+			);
+			path = MissionTag;
+			sourceTree = "<group>";
+		};
+		D4F5CB842670C83800FC8261 /* MissionTime */ = {
+			isa = PBXGroup;
+			children = (
+				D47940A32670825200A0EF9A /* MissionStartTimeTableViewCell.swift */,
+				D425C64126748E3000A0D9DE /* MissionEndTimeTableViewCell.swift */,
+				D4E05E19267663650050808F /* MissionRemindTimeCollectionViewCell.swift */,
+				D4E05E132675DE460050808F /* MissionAddRemindTimeCollectionViewCell.swift */,
+			);
+			path = MissionTime;
+			sourceTree = "<group>";
+		};
+		D4F5CB862670C8CF00FC8261 /* MissionName */ = {
+			isa = PBXGroup;
+			children = (
+				D479409F26706E1A00A0EF9A /* MissionNameTableViewCell.swift */,
+			);
+			path = MissionName;
+			sourceTree = "<group>";
+		};
+		D4F5CBC626710D9100FC8261 /* Achievement */ = {
+			isa = PBXGroup;
+			children = (
+				D47F4A89266CB834007DDE38 /* AchievementViewController.swift */,
+			);
+			path = Achievement;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D47F4A4C266CB3D3007DDE38 /* IHabit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D47F4A7A266CB3D4007DDE38 /* Build configuration list for PBXNativeTarget "IHabit" */;
+			buildPhases = (
+				3F1CB433F38F7AD32990194F /* [CP] Check Pods Manifest.lock */,
+				D47F4A49266CB3D3007DDE38 /* Sources */,
+				D47F4A4A266CB3D3007DDE38 /* Frameworks */,
+				D47F4A4B266CB3D3007DDE38 /* Resources */,
+				D47F4A83266CB453007DDE38 /* ShellScript */,
+				E0551B968C2EB52F1BA0D2BC /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IHabit;
+			productName = IHabit;
+			productReference = D47F4A4D266CB3D3007DDE38 /* IHabit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D47F4A65266CB3D4007DDE38 /* IHabitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D47F4A7D266CB3D4007DDE38 /* Build configuration list for PBXNativeTarget "IHabitTests" */;
+			buildPhases = (
+				D471AC112B41BDD3364CC3B5 /* [CP] Check Pods Manifest.lock */,
+				D47F4A62266CB3D4007DDE38 /* Sources */,
+				D47F4A63266CB3D4007DDE38 /* Frameworks */,
+				D47F4A64266CB3D4007DDE38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D47F4A68266CB3D4007DDE38 /* PBXTargetDependency */,
+			);
+			name = IHabitTests;
+			productName = IHabitTests;
+			productReference = D47F4A66266CB3D4007DDE38 /* IHabitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D47F4A70266CB3D4007DDE38 /* IHabitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D47F4A80266CB3D4007DDE38 /* Build configuration list for PBXNativeTarget "IHabitUITests" */;
+			buildPhases = (
+				1422F73D7F91EAD7516A7E8E /* [CP] Check Pods Manifest.lock */,
+				D47F4A6D266CB3D4007DDE38 /* Sources */,
+				D47F4A6E266CB3D4007DDE38 /* Frameworks */,
+				D47F4A6F266CB3D4007DDE38 /* Resources */,
+				F5266B303C64441CA473228A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D47F4A73266CB3D4007DDE38 /* PBXTargetDependency */,
+			);
+			name = IHabitUITests;
+			productName = IHabitUITests;
+			productReference = D47F4A71266CB3D4007DDE38 /* IHabitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D47F4A45266CB3D3007DDE38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					D47F4A4C266CB3D3007DDE38 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					D47F4A65266CB3D4007DDE38 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = D47F4A4C266CB3D3007DDE38;
+					};
+					D47F4A70266CB3D4007DDE38 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = D47F4A4C266CB3D3007DDE38;
+					};
+				};
+			};
+			buildConfigurationList = D47F4A48266CB3D3007DDE38 /* Build configuration list for PBXProject "IHabit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D47F4A44266CB3D3007DDE38;
+			productRefGroup = D47F4A4E266CB3D3007DDE38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D47F4A4C266CB3D3007DDE38 /* IHabit */,
+				D47F4A65266CB3D4007DDE38 /* IHabitTests */,
+				D47F4A70266CB3D4007DDE38 /* IHabitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D47F4A4B266CB3D3007DDE38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D44986EA268C0A2D00E13B9E /* Fight.storyboard in Resources */,
+				D4089D81267C799200CCDA89 /* ActorInformation.storyboard in Resources */,
+				D42E79FB267FA70C00A9CA11 /* EditMission.storyboard in Resources */,
+				D47F4A60266CB3D4007DDE38 /* LaunchScreen.storyboard in Resources */,
+				D47F4A5D266CB3D4007DDE38 /* Assets.xcassets in Resources */,
+				D4E5BFEF2688B7EB00C5499B /* Store.storyboard in Resources */,
+				D46FC8CC267A4410001B973E /* MissionOverview.storyboard in Resources */,
+				D46D4529268044C00011464C /* Achievement.storyboard in Resources */,
+				D47F4A58266CB3D3007DDE38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D47F4A64266CB3D4007DDE38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D47F4A6F266CB3D4007DDE38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1422F73D7F91EAD7516A7E8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IHabit-IHabitUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F1CB433F38F7AD32990194F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IHabit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D471AC112B41BDD3364CC3B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IHabitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D47F4A83266CB453007DDE38 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/SwiftLint/swiftlint\" lint --config \"${SRCROOT}/swiftlint.yml\"\n";
+		};
+		E0551B968C2EB52F1BA0D2BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IHabit/Pods-IHabit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IHabit/Pods-IHabit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IHabit/Pods-IHabit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5266B303C64441CA473228A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IHabit-IHabitUITests/Pods-IHabit-IHabitUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-IHabit-IHabitUITests/Pods-IHabit-IHabitUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IHabit-IHabitUITests/Pods-IHabit-IHabitUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D47F4A49266CB3D3007DDE38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D455094C26929FF600C25032 /* TitleTableViewCell.swift in Sources */,
+				D44986F0268CD1F000E13B9E /* FightTableViewCell.swift in Sources */,
+				D479409D2670675B00A0EF9A /* NewMissionViewController.swift in Sources */,
+				D4E5BFED2688AA8200C5499B /* ActorInfoTableViewCell.swift in Sources */,
+				D47F4A88266CB79D007DDE38 /* HomeViewController.swift in Sources */,
+				D4E05E1A267663650050808F /* MissionRemindTimeCollectionViewCell.swift in Sources */,
+				D4994F7E2689D21B00B53BE5 /* StoreLevelUpTableViewCell.swift in Sources */,
+				D4A5A02726807256004EB2DE /* RegisteredViewController.swift in Sources */,
+				D4E5BFF22688B8C300C5499B /* StoreViewController.swift in Sources */,
+				D4A5A02F2680FD87004EB2DE /* UserCheckMailData.swift in Sources */,
+				D4994F772689B4A000B53BE5 /* TalentListData.swift in Sources */,
+				D47F4A5B266CB3D3007DDE38 /* IHabit.xcdatamodeld in Sources */,
+				D46FC8C8267A079A001B973E /* UIViewController+Extension.swift in Sources */,
+				D4FDAB4E26973B690042BE54 /* LevelUpViewController.swift in Sources */,
+				D4903B98267906B30094CACC /* TagFilterViewController.swift in Sources */,
+				D4994F792689BA7300B53BE5 /* TalentImageView.swift in Sources */,
+				D4E5BFE826883CA300C5499B /* UILabel+Extension.swift in Sources */,
+				D44986ED268CBD5000E13B9E /* FightViewController.swift in Sources */,
+				D448E2D6267DC71000022946 /* Arrat+Extension.swift in Sources */,
+				D4A581E926922509002A3AC3 /* ActorTitleViewController.swift in Sources */,
+				D47F4A8A266CB834007DDE38 /* AchievementViewController.swift in Sources */,
+				D49BE6AE2671EF3A00048C9B /* MissionFrequencyTableViewCell.swift in Sources */,
+				D4D9369E2690883B00B3FB54 /* FightWin.swift in Sources */,
+				D42F0CD02672084700F6C8B5 /* MissionTagCollectionViewCell.swift in Sources */,
+				D46FC8D2267A452B001B973E /* MissionOverViewTableViewCell.swift in Sources */,
+				D4A5A02A2680BE61004EB2DE /* Server.swift in Sources */,
+				D4EB50BC2683688C004DF5F2 /* TagListData.swift in Sources */,
+				D495D73F268DA6F10085D713 /* LevelFightChoseCollectionViewCell.swift in Sources */,
+				D492E8DF26824DBE00CBF838 /* HabitListData.swift in Sources */,
+				D495D745268DF8400085D713 /* SkillCollectionViewCell.swift in Sources */,
+				D4F5CB792670A29E00FC8261 /* MissionTagViewController.swift in Sources */,
+				D4A5B608268B7B7000F260AD /* UserLevelUpEquipData.swift in Sources */,
+				D425C64226748E3000A0D9DE /* MissionEndTimeTableViewCell.swift in Sources */,
+				D46FC8CF267A444D001B973E /* MissionOverviewViewController.swift in Sources */,
+				D40F70A82686F8E200C5D036 /* FinishHabit.swift in Sources */,
+				D4089D84267C79D400CCDA89 /* ActorInformationViewController.swift in Sources */,
+				D4A5B606268B109600F260AD /* UserForgingEquipData.swift in Sources */,
+				D443CF90267B23B70074B303 /* MissionInformationTableViewCell.swift in Sources */,
+				D47940A026706E1A00A0EF9A /* MissionNameTableViewCell.swift in Sources */,
+				D4089D86267CF2DC00CCDA89 /* MissionFilterTagTableViewCell.swift in Sources */,
+				D4E05E112675DC650050808F /* MissionSetTimeViewController.swift in Sources */,
+				D4A5A02D2680C42C004EB2DE /* UserRegistedData.swift in Sources */,
+				D49BE6AB2671B8DA00048C9B /* MissionEncourageTableViewCell.swift in Sources */,
+				D4E05E142675DE460050808F /* MissionAddRemindTimeCollectionViewCell.swift in Sources */,
+				D4E5BFEA268872E900C5499B /* UserInformationData.swift in Sources */,
+				D49264D7266F7365008D8421 /* SettingViewController.swift in Sources */,
+				D4317C1A267799A100FC5A59 /* MissionIconCollectionViewCell.swift in Sources */,
+				D49264DC266F9DD7008D8421 /* MissionListTableViewCell.swift in Sources */,
+				D4D936A02690C9AC00B3FB54 /* ResetPasswordViewController.swift in Sources */,
+				D4D936A22690D27900B3FB54 /* ResetPasswordData.swift in Sources */,
+				D4EB50B62682EECB004DF5F2 /* MissionTag.swift in Sources */,
+				D47F4A55266CB3D3007DDE38 /* ViewController.swift in Sources */,
+				D49264D9266F9D09008D8421 /* MissionListViewController.swift in Sources */,
+				D49BE6B12671F53200048C9B /* MissionSetTagViewController.swift in Sources */,
+				D492E8DD26823C9B00CBF838 /* UesrLoginData.swift in Sources */,
+				D4994F7C2689D20D00B53BE5 /* StoreForgingTableViewCell.swift in Sources */,
+				D42F0CD326720A1900F6C8B5 /* FrequencySayData.swift in Sources */,
+				D495D743268DEE2C0085D713 /* SkillViewController.swift in Sources */,
+				D49264CF266F6213008D8421 /* TabBarViewController.swift in Sources */,
+				D4EB50B42682C8DC004DF5F2 /* AddNewHabit.swift in Sources */,
+				D42E79FE267FA75700A9CA11 /* EditMissionViewController.swift in Sources */,
+				D47F4A51266CB3D3007DDE38 /* AppDelegate.swift in Sources */,
+				D42F0CD52672259C00F6C8B5 /* CurrentTime.swift in Sources */,
+				D495D73D268D98930085D713 /* ChoseLevelFightViewController.swift in Sources */,
+				D4EB50BA2683214D004DF5F2 /* MissionDetailData.swift in Sources */,
+				D495D741268DBB220085D713 /* BossInfoData.swift in Sources */,
+				D4A5B604268B0B1500F260AD /* UserEquipData.swift in Sources */,
+				D4A5A02526807234004EB2DE /* SignInViewController.swift in Sources */,
+				D47940A42670825200A0EF9A /* MissionStartTimeTableViewCell.swift in Sources */,
+				D47F4A53266CB3D3007DDE38 /* SceneDelegate.swift in Sources */,
+				D47940A2267081B500A0EF9A /* MissionTagTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D47F4A62266CB3D4007DDE38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D47F4A6B266CB3D4007DDE38 /* IHabitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D47F4A6D266CB3D4007DDE38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D47F4A76266CB3D4007DDE38 /* IHabitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D47F4A68266CB3D4007DDE38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D47F4A4C266CB3D3007DDE38 /* IHabit */;
+			targetProxy = D47F4A67266CB3D4007DDE38 /* PBXContainerItemProxy */;
+		};
+		D47F4A73266CB3D4007DDE38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D47F4A4C266CB3D3007DDE38 /* IHabit */;
+			targetProxy = D47F4A72266CB3D4007DDE38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D47F4A56266CB3D3007DDE38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D47F4A57266CB3D3007DDE38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D47F4A5E266CB3D4007DDE38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D47F4A5F266CB3D4007DDE38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D47F4A78266CB3D4007DDE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D47F4A79266CB3D4007DDE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D47F4A7B266CB3D4007DDE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F5257E162E3807FC8CBA471 /* Pods-IHabit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IHabit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.joey.IHabit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D47F4A7C266CB3D4007DDE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FD1F39D33F90FD09C1917B0 /* Pods-IHabit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IHabit/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.joey.IHabit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D47F4A7E266CB3D4007DDE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86CF3290700DC4FD9C51392B /* Pods-IHabitTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IHabitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.joey.IHabitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IHabit.app/IHabit";
+			};
+			name = Debug;
+		};
+		D47F4A7F266CB3D4007DDE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DB7B9063B6B9ACDA5108BEF /* Pods-IHabitTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IHabitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.joey.IHabitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IHabit.app/IHabit";
+			};
+			name = Release;
+		};
+		D47F4A81266CB3D4007DDE38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9E87DAEB038DC45BE32F417 /* Pods-IHabit-IHabitUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IHabitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.joey.IHabitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IHabit;
+			};
+			name = Debug;
+		};
+		D47F4A82266CB3D4007DDE38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC9B94630A57658ED0087F7E /* Pods-IHabit-IHabitUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = IHabitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = io.joey.IHabitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = IHabit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D47F4A48266CB3D3007DDE38 /* Build configuration list for PBXProject "IHabit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D47F4A78266CB3D4007DDE38 /* Debug */,
+				D47F4A79266CB3D4007DDE38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D47F4A7A266CB3D4007DDE38 /* Build configuration list for PBXNativeTarget "IHabit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D47F4A7B266CB3D4007DDE38 /* Debug */,
+				D47F4A7C266CB3D4007DDE38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D47F4A7D266CB3D4007DDE38 /* Build configuration list for PBXNativeTarget "IHabitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D47F4A7E266CB3D4007DDE38 /* Debug */,
+				D47F4A7F266CB3D4007DDE38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D47F4A80266CB3D4007DDE38 /* Build configuration list for PBXNativeTarget "IHabitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D47F4A81266CB3D4007DDE38 /* Debug */,
+				D47F4A82266CB3D4007DDE38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D47F4A59266CB3D3007DDE38 /* IHabit.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D47F4A5A266CB3D3007DDE38 /* IHabit.xcdatamodel */,
+			);
+			currentVersion = D47F4A5A266CB3D3007DDE38 /* IHabit.xcdatamodel */;
+			path = IHabit.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D47F4A45266CB3D3007DDE38 /* Project object */;
+}

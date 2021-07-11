@@ -1,11 +1,20 @@
-# ihabit - 會議記錄：
+# ihabit：
 
-https://hackmd.io/@Meiying/ryof7Ksqd
+介紹影片：
+https://youtu.be/sKRPKVBTv4A
 
-# Daily Meeting紀錄表格：
+一款透過遊戲化設定，激勵使用者培養習慣的app
 
-https://docs.google.com/spreadsheets/d/1F_V89p7U33fXOvg8RBVmiyOWNi5ArazZnKHLBkkDPRw/edit#gid=1729270245
+語言使用的是Swift，配合上後端資料庫，可以讓使用者在雙平台上做登錄帳號做使用
 
-# 專題sql schema：
+主要核心功能有
 
-https://docs.google.com/spreadsheets/d/1ledtEraad2PoJg-CdzcFfc4TWEhXjLQFY9AnNubq8Js/edit#gid=999758615
+新建習慣系統
+職業系統
+天賦星盤系統
+戰鬥系統
+裝備鍛造系統
+
+每個習慣都具有獨立的推播通知，可以提醒使用者該做習慣了，並且可彈性的讓使用者自己決定是否要關掉通知設定
+此外也建置Filter習慣的功能，每個習慣可以擁有不同的標籤(使用者可以以自訂義)，方便使用者整理習慣列表
+App許多畫面上使用動畫或Gif呈現，希望可以帶給使用者感受到有別以往的生產力工具那種枯燥感

@@ -14,4 +14,14 @@ extension UIViewController {
         view.addSubview(childController.view)
         childController.didMove(toParent: self)
     }
+    
+    func alertMessage(title: String?, message: String?, actionTitle: String) {
+        let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        let okAction = UIAlertAction(title: actionTitle, style: .default, handler: nil)
+        alertController.addAction(okAction)
+        
+        DispatchQueue.main.async {
+            self.present(alertController, animated: true, completion: nil)
+        }
+    }
 }

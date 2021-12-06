@@ -21,6 +21,7 @@
 		D42F0CD52672259C00F6C8B5 /* CurrentTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = D42F0CD42672259C00F6C8B5 /* CurrentTime.swift */; };
 		D4317C1A267799A100FC5A59 /* MissionIconCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4317C19267799A100FC5A59 /* MissionIconCollectionViewCell.swift */; };
 		D443CF90267B23B70074B303 /* MissionInformationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D443CF8F267B23B70074B303 /* MissionInformationTableViewCell.swift */; };
+		D44687E0275E63480092C088 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44687DF275E63480092C088 /* SignInViewModel.swift */; };
 		D448E2D6267DC71000022946 /* Arrat+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D448E2D5267DC71000022946 /* Arrat+Extension.swift */; };
 		D44986EA268C0A2D00E13B9E /* Fight.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D44986E9268C0A2D00E13B9E /* Fight.storyboard */; };
 		D44986ED268CBD5000E13B9E /* FightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D44986EC268CBD5000E13B9E /* FightViewController.swift */; };
@@ -132,6 +133,7 @@
 		D42F0CD42672259C00F6C8B5 /* CurrentTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTime.swift; sourceTree = "<group>"; };
 		D4317C19267799A100FC5A59 /* MissionIconCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionIconCollectionViewCell.swift; sourceTree = "<group>"; };
 		D443CF8F267B23B70074B303 /* MissionInformationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionInformationTableViewCell.swift; sourceTree = "<group>"; };
+		D44687DF275E63480092C088 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
 		D448E2D5267DC71000022946 /* Arrat+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Arrat+Extension.swift"; sourceTree = "<group>"; };
 		D44986E9268C0A2D00E13B9E /* Fight.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Fight.storyboard; sourceTree = "<group>"; };
 		D44986EC268CBD5000E13B9E /* FightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FightViewController.swift; sourceTree = "<group>"; };
@@ -296,6 +298,14 @@
 				D4317C19267799A100FC5A59 /* MissionIconCollectionViewCell.swift */,
 			);
 			path = MissionIcon;
+			sourceTree = "<group>";
+		};
+		D44687DE275E63300092C088 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D44687DF275E63480092C088 /* SignInViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		D44986EB268CBD3400E13B9E /* Fight */ = {
@@ -518,6 +528,7 @@
 			isa = PBXGroup;
 			children = (
 				D4A5A02426807234004EB2DE /* SignInViewController.swift */,
+				D44687DE275E63300092C088 /* ViewModel */,
 			);
 			path = SignIn;
 			sourceTree = "<group>";
@@ -960,6 +971,7 @@
 				D495D741268DBB220085D713 /* BossInfoData.swift in Sources */,
 				D4A5B604268B0B1500F260AD /* UserEquipData.swift in Sources */,
 				D4A5A02526807234004EB2DE /* SignInViewController.swift in Sources */,
+				D44687E0275E63480092C088 /* SignInViewModel.swift in Sources */,
 				D47940A42670825200A0EF9A /* MissionStartTimeTableViewCell.swift in Sources */,
 				D47F4A53266CB3D3007DDE38 /* SceneDelegate.swift in Sources */,
 				D47940A2267081B500A0EF9A /* MissionTagTableViewCell.swift in Sources */,
